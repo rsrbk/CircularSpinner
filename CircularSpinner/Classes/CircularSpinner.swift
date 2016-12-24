@@ -83,7 +83,7 @@ open class CircularSpinner: UIView {
             configureType()
         }
     }
-    open static var dismissButton: Bool = true
+    open static var dismissButton: Bool = false
     open var showDismissButton = dismissButton {
         didSet {
             appearanceDismissButton()

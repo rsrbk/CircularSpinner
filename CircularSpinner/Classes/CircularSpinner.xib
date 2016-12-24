@@ -24,15 +24,15 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3d-29-DlR">
-                    <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                    <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="B3d-29-DlR" secondAttribute="height" multiplier="1:1" id="XVv-yg-5wi"/>
-                        <constraint firstAttribute="width" constant="200" id="zbZ-rs-muA"/>
+                        <constraint firstAttribute="width" constant="150" id="zbZ-rs-muA"/>
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elaborazione in corso..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="pP8-UQ-VJj">
-                    <rect key="frame" x="107.5" y="286" width="160" height="95.5"/>
+                    <rect key="frame" x="127.5" y="286" width="120" height="95.5"/>
                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
                     <color key="textColor" red="0.43529411764705883" green="0.43529411764705883" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
