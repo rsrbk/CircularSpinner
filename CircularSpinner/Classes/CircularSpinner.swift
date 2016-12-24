@@ -364,19 +364,11 @@ extension CircularSpinner {
         spinner.stopInderminateAnimation()
         
         NotificationCenter.default.removeObserver(spinner)
-        
-        DispatchQueue.main.async(execute: {
-            if spinner.superview == nil {
-                return
-            }
-            
-            UIView.animate(withDuration: 0.33, delay: 0, options: .curveEaseOut, animations: {
-                spinner.alpha = 0
-                }, completion: { _ in
-                    spinner.alpha = 1
-                    spinner.removeFromSuperview()
-                    completion?()
-            })
-        })
+
+        if spinner.superview == nil {
+            return
+        }
+        spinner.removeFromSuperview()
+        completion?()
     }
 }
